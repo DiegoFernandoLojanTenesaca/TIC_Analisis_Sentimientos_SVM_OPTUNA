@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+title: >-
+  Bayesian Hyperparameter Optimization of SVM with TPE
+  for Stress Detection in Spanish Social Media
+message: >-
+  If you use this software or its results, please cite the
+  associated CIT 2026 paper (Springer LNNS) using the
+  preferred-citation entry below.
+type: software
+authors:
+  - given-names: Diego Fernando
+    family-names: Lojan Tenesaca
+    email: diego.lojan@unl.edu.ec
+    affiliation: Universidad Nacional de Loja
+    orcid: "https://orcid.org/0009-0003-3882-3889"
+  - given-names: Luis Antonio
+    family-names: Chamba-Eras
+    email: lachamba@unl.edu.ec
+    affiliation: Universidad Nacional de Loja
+    orcid: "https://orcid.org/0000-0003-3069-9628"
+repository-code: >-
+  https://github.com/DiegoFernandoLojanTenesaca/TIC_Analisis_Sentimientos_SVM_OPTUNA
+abstract: >-
+  Code and experiments accompanying a study on stress detection
+  in Spanish social media text during the 2024 Ecuadorian
+  energy crisis. The work applies Bayesian hyperparameter
+  optimization (Tree-structured Parzen Estimator via Optuna)
+  to Support Vector Machines, combined with FastText Skip-gram
+  embeddings and SMOTE balancing, following the CRISP-DM
+  methodology. Evaluated on 26,600 ethically scraped tweets
+  and 18,515 messages from the MentalRiskES corpus, the
+  optimized model reaches F1-scores of 92.60% (Twitter/X) and
+  97.23% (MentalRiskES), with a 62% reduction in false
+  negatives on MentalRiskES.
+keywords:
+  - sentiment analysis
+  - affective computing
+  - support vector machines
+  - bayesian optimization
+  - tree-structured parzen estimator
+  - optuna
+  - fasttext
+  - smote
+  - crisp-dm
+  - spanish nlp
+  - mental health
+  - stress detection
+  - ecuadorian energy crisis
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Bayesian Hyperparameter Optimization of Support Vector
+    Machines Using TPE for Stress Detection in Spanish Social
+    Media During the 2024 Ecuadorian Energy Crisis
+  authors:
+    - given-names: Diego Fernando
+      family-names: Lojan Tenesaca
+      affiliation: Universidad Nacional de Loja
+      orcid: "https://orcid.org/0009-0003-3882-3889"
+    - given-names: Luis Antonio
+      family-names: Chamba-Eras
+      affiliation: Universidad Nacional de Loja
+      orcid: "https://orcid.org/0000-0003-3069-9628"
+  collection-title: >-
+    Emerging Research in Intelligent Systems.
+    Proceedings of the CIT 2026
+  collection-type: proceedings
+  conference:
+    name: >-
+      International Conference on Applied Technologies (CIT 2026)
+    website: "https://www.espe.edu.ec/cit-2026/"
+  publisher:
+    name: Springer
+  year: 2026
+  notes: "In press. DOI will be added upon official publication."
