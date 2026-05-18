@@ -81,7 +81,7 @@ El pipeline integra **CRISP-DM**, embeddings **FastText Skip-gram**, balanceo **
 ```
 
 > [!TIP]
-> Cuando el repositorio incluya el archivo `CITATION.cff`, GitHub mostrará automáticamente un botón **"Cite this repository"** en la barra lateral derecha del repo, con la cita lista para copiar en BibTeX o APA.
+> El botón **"Cite this repository"** está disponible en la barra lateral derecha del repo (sección "About"). Permite copiar la cita en BibTeX o APA con un solo clic, basado en el archivo [`CITATION.cff`](CITATION.cff).
 
 ---
 
